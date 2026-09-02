@@ -1,0 +1,29 @@
+{
+  "name": "npm-learning",
+  "version": "1.0.0",
+  "description": "Project npm learning",
+  "keywords": [
+    "node-learning",
+    "npm-learning",
+    "package.json-learning"
+  ],
+  "homepage": "https://github.com/dhomlmgyr188/node-learning#readme",
+  "bugs": {
+    "url": "https://github.com/dhomlmgyr188/node-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhomlmgyr188/node-learning.git"
+  },
+  "license": "ISC",
+  "author": "Abdulrahman Almughyir",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.18.1"
+  }
+}
